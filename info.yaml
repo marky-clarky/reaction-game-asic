@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
+  title:        "Reaction Game"      # Project title
+  author:       "Mark"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "Reaction-time game: wait for the GO LED, press the button, and your reaction time is shown on the outputs."      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -23,8 +23,8 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
+  ui[0]: "Start button"
+  ui[1]: "React button"
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
@@ -33,14 +33,14 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "GO LED"
+  uo[1]: "FAIL LED"
+  uo[2]: "Score bit 0"
+  uo[3]: "Score bit 1"
+  uo[4]: "Score bit 2"
+  uo[5]: "Score bit 3"
+  uo[6]: "Score bit 4"
+  uo[7]: "Score bit 5"
 
   # Bidirectional pins
   uio[0]: ""
